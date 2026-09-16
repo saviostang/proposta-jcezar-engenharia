@@ -79,7 +79,10 @@ h1,h2,h3,h4{font-family:'Montserrat',Arial,sans-serif}
 
 .pc{border-radius:20px;padding:38px}
 .pc.anual{background:linear-gradient(135deg,rgba(102,96,180,0.18) 0%,rgba(18,19,37,0.6) 100%);border:2px solid #6660B4}
+.pc.alt{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12)}
+.pc.alt .ptag{background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.7)}
 .ptag{display:inline-block;background:#6660B4;color:#fff;font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:100px;margin-bottom:14px}
+.pc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;max-width:800px;margin:0 auto}
 .pname{font-family:'Montserrat',sans-serif;font-size:18px;font-weight:700;color:#fff;margin-bottom:20px}
 .pprice{font-family:'Montserrat',sans-serif;font-size:40px;font-weight:800;color:#FFBEF5;line-height:1;margin-bottom:4px}
 .pperiod{font-size:13px;color:rgba(255,255,255,0.45);margin-bottom:22px}
@@ -138,7 +141,7 @@ h1,h2,h3,h4{font-family:'Montserrat',Arial,sans-serif}
   </div>
   <div><div class="badge">Diagnóstico de ROI</div></div>
   <h1>Da cotação manual<br><em>à negociação estratégica</em></h1>
-  <p class="hero-sub">Projeção de retorno para <strong>JCezar Engenharia</strong> · 2 Assistentes de IA</p>
+  <p class="hero-sub">Projeção de retorno para <strong>JCezar Engenharia</strong> · Planos de 1 ou 2 Assistentes de IA</p>
   <div class="hero-metrics">
     <div class="hm"><div class="hm-val">R$ 1M</div><div class="hm-lbl">Volume de compras/mês</div></div>
     <div class="hm"><div class="hm-val">7,7×</div><div class="hm-lbl">Retorno realista (12 meses)</div></div>
@@ -203,7 +206,7 @@ h1,h2,h3,h4{font-family:'Montserrat',Arial,sans-serif}
 <section class="section">
   <div class="sec-badge">Solução Proposta</div>
   <h2 class="sec-title">2 Assistentes de IA <em>dgenny®</em></h2>
-  <p class="sec-desc">Configurados especificamente para a operação de compras da JCezar Engenharia, com integração nativa ao Sienge.</p>
+  <p class="sec-desc">Configuradas especificamente para a operação de compras da JCezar Engenharia, com integração nativa ao Sienge — disponíveis nos planos de 1 ou 2 assistentes detalhados na seção de investimento.</p>
   <div class="plan-card">
     <div class="plan-title">2 Assistentes de IA · Integração nativa Sienge</div>
     <div class="plan-features">
@@ -345,11 +348,11 @@ h1,h2,h3,h4{font-family:'Montserrat',Arial,sans-serif}
 <!-- INVESTIMENTO -->
 <section class="section">
   <div class="sec-badge">Investimento</div>
-  <h2 class="sec-title"><em>Investimento</em></h2>
-  <p class="sec-desc">Implantação em até 30 dias — integração Sienge, cadastro da base de fornecedores, configuração dos assistentes e treinamento do time.</p>
-  <div style="max-width:480px;margin:0 auto">
+  <h2 class="sec-title">Invista no formato<br><em>ideal para vocês</em></h2>
+  <p class="sec-desc">Duas opções de plano para a JCezar Engenharia. Implantação em até 30 dias em ambos os casos — integração Sienge, cadastro da base de fornecedores, configuração dos assistentes e treinamento do time.</p>
+  <div class="pc-grid">
     <div class="pc anual">
-      <div class="ptag">Plano 12 meses</div>
+      <div class="ptag">Recomendado · 12 meses</div>
       <div class="pname">2 Assistentes de IA dgenny®</div>
       <div class="pprice">R$ 4.000<span style="font-size:16px;color:#FFBEF5;font-weight:700"> /mês</span></div>
       <div class="pperiod">+ 1 usuário de gestão sem assistente vinculado, incluso</div>
@@ -362,10 +365,30 @@ h1,h2,h3,h4{font-family:'Montserrat',Arial,sans-serif}
         <li>Prospecção ativa de novos fornecedores</li>
         <li>Mapa de cotação devolvido pronto no Sienge</li>
         <li>Governança total: histórico completo por comprador</li>
+        <li>Até 12.000 conversas/ano</li>
       </ul>
       <div class="ptotal">Implantação (única vez): <strong>R$ 7.000</strong></div>
-      <div class="validity-box">Proposta válida até <strong>23/09/2026</strong></div>
     </div>
+    <div class="pc alt">
+      <div class="ptag">Opção enxuta · 12 meses</div>
+      <div class="pname">1 Assistente de IA dgenny®</div>
+      <div class="pprice">R$ 3.000<span style="font-size:16px;color:#FFBEF5;font-weight:700"> /mês</span></div>
+      <div class="pperiod">Ideal para começar com um comprador e escalar depois</div>
+      <ul class="pitems">
+        <li>1 Assistente de IA dgenny®</li>
+        <li>Integração nativa com o Sienge</li>
+        <li>WhatsApp Business oficial (Meta), número dedicado</li>
+        <li>Equalização automática de propostas e conversão unitária</li>
+        <li>Follow-up automático com fornecedores</li>
+        <li>Prospecção ativa de novos fornecedores</li>
+        <li>Mapa de cotação devolvido pronto no Sienge</li>
+        <li>Até 6.000 conversas/ano</li>
+      </ul>
+      <div class="ptotal">Implantação (única vez): <strong>R$ 6.000</strong></div>
+    </div>
+  </div>
+  <div style="max-width:800px;margin:0 auto">
+    <div class="validity-box">Proposta válida até <strong>23/09/2026</strong></div>
   </div>
 </section>
 
